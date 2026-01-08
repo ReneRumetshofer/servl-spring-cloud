@@ -13,6 +13,15 @@
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="order-service.main" options="-parameters" />
+      <module name="order-service.test" options="-parameters" />
+      <module name="product-service" options="-parameters" />
+      <module name="product-service.main" options="-parameters" />
+      <module name="product-service.test" options="-parameters" />
+      <module name="store-service" options="-parameters" />
+      <module name="store-service.main" options="-parameters" />
+      <module name="store-service.test" options="-parameters" />
     </option>
   </component>
 </project>

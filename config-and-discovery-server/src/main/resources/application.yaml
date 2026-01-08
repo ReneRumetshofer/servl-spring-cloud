@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-and-discovery-server
+  cloud:
+    config:
+      server:
+        git.uri: https://github.com/ReneRumetshofer/servl-spring-cloud
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    enable-self-preservation: false

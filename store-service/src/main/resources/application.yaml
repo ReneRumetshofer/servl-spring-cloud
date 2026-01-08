@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: store-service
+
+  config:
+    import: configserver:http://localhost:8888
+
+server:
+  port: 0 # Random port
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+
+  instance:
+    prefer-ip-address: true
