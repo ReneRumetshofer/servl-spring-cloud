@@ -7,12 +7,18 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="api-gateway.main" options="-parameters" />
+      <module name="api-gateway.test" options="-parameters" />
       <module name="config-and-discovery-server" options="-parameters" />
       <module name="config-and-discovery-server.main" options="-parameters" />
       <module name="config-and-discovery-server.test" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />
+      <module name="frontend-service" options="-parameters" />
+      <module name="frontend-service.main" options="-parameters" />
+      <module name="frontend-service.test" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="order-service.main" options="-parameters" />
       <module name="order-service.test" options="-parameters" />
